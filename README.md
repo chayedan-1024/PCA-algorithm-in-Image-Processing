@@ -24,7 +24,7 @@ the above requirements
 So the steps to achieve the goal is,  
 
   1. calculate the covariance matrix <b>C</b>(d by d) of <b>X</b>(N by d):  
-    (1) cov(<b>d_i</b> ,<b>d_j</b>) = 1/(d-1) \sum_k (d_ik - u_i)^T(d_jk - u_j)
+    (1) cov(<b>d_i</b> ,<b>d_j</b>) = 1/(d-1) \sum_k (d_ik - u_i)^T(d_jk - u_j)  
     Also we have the scatter matrix:  
      for d_i(N by 1): d_i' = d_i - u_i(N by 1)  
      S_ij = d_i'^Td_j' is an element of the scatter matrix <b>S</b>:  
