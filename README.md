@@ -28,7 +28,7 @@ So the steps to achieve the goal is,
     Also we have the scatter matrix:
      for d_i(N by 1): d_i' = d_i - u_i(N by 1)
      S_ij = d_i'^Td_j' is an element of the scatter matrix <b>S</b>:
-     <b>S</b> = (<b>X</b> - <b>u</b>)^T(<b>X</b> - <b>u</b>)
+     <b>S</b> = (<b>X</b> - <b>u</b>)^T(<b>X</b> - <b>u</b>)  
      <b>u<b> = [[u_1, u_2, ..., u_d ]  
                 [u_1, u_2, ..., u_d ]  
                  ...  ...  ...  ...  
