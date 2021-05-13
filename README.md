@@ -23,7 +23,7 @@ the above requirements
 
 So the steps to achieve the goal is,
 
-  1. calculate the covariance matrix C(d by d) of X(N by d):
+  1. calculate the covariance matrix <b>C</b>(d by d) of <b>X</b>(N by d):
     (1) cov(<b>d_i</b> ,<b>d_j</b>) = 1/(d-1) \sum_k (d_ik - u_i)^T(d_jk - u_j)
     Also we have the scatter matrix:
      for d_i(N by 1): d_i' = d_i - u_i(N by 1)
@@ -32,6 +32,11 @@ So the steps to achieve the goal is,
      <b>u</b> = [[u_1, u_2, ..., u_d ]  
                 [u_1, u_2, ..., u_d ]  
                  ...  ...  ...  ...  
-                [u_1, u_2, ..., u_d ]] (N by d)
+                [u_1, u_2, ..., u_d ]] (N by d).  
+     Factly, <b>C</b> = 1/(d-1) <b>S</b>
      
-  3. 
+  2. get the eigen values and eigen vectors of <b>C</b>,
+    This is a math problem, we can solve the equation lambda<b>I</b> - C = 0
+    or use SVD method to get the values and vectors  
+      Suppose we have gotten the eigen values c_1, c_2, ..., c_d and their 
+      corresponding eigen vectors <b>v_1</b>
