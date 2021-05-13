@@ -38,5 +38,10 @@ So the steps to achieve the goal is,
   2. get the eigen values and eigen vectors of <b>C</b>,
     This is a math problem, we can solve the equation lambda<b>I</b> - C = 0  
     or use SVD method to get the values and vectors    
-      Suppose we have gotten the eigen values c_1, c_2, ..., c_d and their   
-      corresponding eigen vectors <b>v_1</b>  
+      (1) Suppose we have gotten the eigen values c_1, c_2, ..., c_d and their   
+      corresponding eigen vectors <b>v_1</b>, <b>v_2</b>, ..., <b>v_d</b>.  
+      (2) rank the eigenvalues from the largest to the smallest.  
+      get the first k values and k eigenvectors.  
+      use these k vectors to form a matrix <b>T</b>.  
+      (3) get the new matrix <b>X'</b>: <b>X'</b> = <b>XT</b>
+      
