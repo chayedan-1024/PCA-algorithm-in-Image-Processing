@@ -42,6 +42,6 @@ So the steps to achieve the goal is,
       corresponding eigen vectors <b>v_1</b>, <b>v_2</b>, ..., <b>v_d</b>.  
       (2) rank the eigenvalues from the largest to the smallest.  
       get the first k values and k eigenvectors.  
-      use these k vectors to form a matrix <b>T</b>.  
+      use these k vectors to form a matrix <b>T</b>(After normalizing each vector).  
       (3) get the new matrix <b>X'</b>: <b>X'</b> = <b>XT</b>
       
