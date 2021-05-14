@@ -1,6 +1,9 @@
 # PCA-algorithm-in-Image-Processing
 The theory relating to PCA and how to impement
 
+You can refer to my .py file to learn how to use PCA method by python  
+And there is an example to process the image of Dirac. 
+
 PCA is a method of feature extraction.
 
 Apply a linear transformation to features to make the new 
