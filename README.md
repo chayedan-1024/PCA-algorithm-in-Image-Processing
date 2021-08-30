@@ -37,9 +37,6 @@ So the steps to achieve the goal is,
                  ...  ...  ...  ...  
                 [u_1, u_2, ..., u_d ]] (N by d).  
      Factly, <b>C</b> = 1/(d-1) <b>S</b>
-     $u = \begin{bmatrix}
-     u_1
-     \end{bmatrix}$
      
   2. get the eigen values and eigen vectors of <b>C</b>,
     This is a math problem, we can solve the equation lambda<b>I</b> - C = 0  
